@@ -251,7 +251,23 @@ Important branches of science include:
 
 Science and education work together to support innovation, technology, agriculture, medicine and economic development.
 
-Key lesson: Learning should encourage curiosity, critical thinking and practical problem-solving.`
+Key lesson: Learning should encourage curiosity, critical thinking and practical problem-solving.`,
+      
+references: [
+    {
+        name: "UNESCO - Education",
+        url: "https://www.unesco.org/en/education"
+    },
+    {
+        name: "NASA - Science",
+        url: "https://science.nasa.gov/"
+    },
+    {
+        name: "National Science Foundation (NSF)",
+        url: "https://www.nsf.gov/"
+    }
+]
+
     },
 
     {
@@ -270,7 +286,23 @@ The Mali Empire became particularly famous for its wealth, scholarship and the c
 
 African history also includes many other kingdoms, communities, independence movements and modern developments.
 
-Key lesson: African history is diverse and important to understanding world civilization.`
+Key lesson: African history is diverse and important to understanding world civilization.`,
+      
+references: [
+    {
+        name: "UNESCO - General History of Africa",
+        url: "https://www.unesco.org/en/general-history-africa"
+    },
+    {
+        name: "African Union",
+        url: "https://au.int/"
+    },
+    {
+        name: "British Museum - Africa",
+        url: "https://www.britishmuseum.org/collection/africa"
+    }
+]
+
     },
 
     {
@@ -293,7 +325,23 @@ Finance is the management of money and other resources. Important financial skil
 
 For example, a farmer can create a business by producing crops, identifying buyers, calculating production costs and choosing suitable selling prices.
 
-Key lesson: A strong business solves real problems while managing resources responsibly.`
+Key lesson: A strong business solves real problems while managing resources responsibly.`,
+      
+references: [
+    {
+        name: "World Bank - Business and Industry",
+        url: "https://www.worldbank.org/en/topic/competitiveness"
+    },
+    {
+        name: "International Trade Centre (ITC)",
+        url: "https://www.intracen.org/"
+    },
+    {
+        name: "International Finance Corporation (IFC)",
+        url: "https://www.ifc.org/"
+    }
+]
+
     },
 
     {
@@ -331,7 +379,23 @@ Environmental challenges include pollution, deforestation, soil degradation and 
 
 Communities can help by protecting forests, planting trees, reducing waste, conserving water and using natural resources responsibly.
 
-Key lesson: Protecting the environment helps protect human health and future generations.`
+Key lesson: Protecting the environment helps protect human health and future generations.`,
+      
+references: [
+    {
+        name: "World Health Organization (WHO) - Health Topics",
+        url: "https://www.who.int/health-topics"
+    },
+    {
+        name: "WHO - Environmental Health",
+        url: "https://www.who.int/health-topics/environmental-health"
+    },
+    {
+        name: "WHO and UN - Health and Environment Guidance",
+        url: "https://www.who.int/tools/compendium-on-health-and-environment"
+    }
+]
+
     },
   
 {
@@ -419,8 +483,64 @@ Important cybersecurity practices include:
 
 Cybersecurity is important for individuals, schools, businesses, governments and organizations.
 
-Key lesson: Digital safety requires awareness, good habits and responsible use of technology.`
-}
+Key lesson: Digital safety requires awareness, good habits and responsible use of technology.`,
+  
+references: [
+    {
+        name: "CISA - Cybersecurity Best Practices",
+        url: "https://www.cisa.gov/topics/cybersecurity-best-practices"
+    },
+    {
+        name: "NIST - Cybersecurity Framework",
+        url: "https://www.nist.gov/cyberframework"
+    },
+    {
+        name: "FBI - Cybersecurity Best Practices",
+        url: "https://www.fbi.gov/investigate/cyber/cybersecurity-best-practices"
+    }
+]
+
+},
+  
+{
+    title: "Mathematics and Engineering",
+
+    keywords: "mathematics engineering algebra geometry physics construction technology",
+
+    description: "Explore mathematics, engineering principles, problem solving and technological design.",
+
+    content: `Mathematics is the study of numbers, quantities, patterns, structures and relationships.
+
+It is an important subject used in science, engineering, business, technology and everyday life.
+
+Major areas of mathematics include:
+
+1. Arithmetic: Basic operations involving numbers.
+2. Algebra: The study of mathematical symbols and equations.
+3. Geometry: The study of shapes, angles and space.
+4. Statistics: The collection and analysis of data.
+5. Calculus: The study of change and motion.
+
+Engineering applies scientific and mathematical knowledge to design, build and improve systems, machines, structures and technologies.
+
+Important engineering fields include civil engineering, mechanical engineering, electrical engineering, chemical engineering and computer engineering.
+
+Engineers solve practical problems by designing solutions, testing ideas and improving existing systems.
+
+Key lesson: Mathematics and engineering support innovation, infrastructure development and technological progress.`,
+
+    references: [
+        {
+            name: "UNESCO",
+            url: "https://www.unesco.org/"
+        },
+        {
+            name: "National Society of Professional Engineers",
+            url: "https://www.nspe.org/"
+        }
+    ]
+},
+
 
 
 ];

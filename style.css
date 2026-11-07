@@ -435,3 +435,33 @@ footer p {
     line-height: 1.9;
     text-align: justify;
 }
+
+/* UGE Article References */
+
+.article-references {
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+.article-references li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.article-references a {
+    color: #1d4ed8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.article-references a:hover {
+    color: #d4af37;
+    text-decoration: underline;
+}
+
+#articleReader h3 {
+    margin-top: 25px;
+    color: #d4af37;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 8px;
+}
