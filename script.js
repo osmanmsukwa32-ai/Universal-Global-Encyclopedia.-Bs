@@ -208,10 +208,17 @@ function showArticle(category) {
             text: "Explore computers, programming, artificial intelligence and digital innovation."
         },
 
-        environment: {
-            title: "Health and Environment",
-            text: "Learn about healthy living, environmental protection, climate and nature."
-        }
+       
+environment: {
+    title: "Health and Environment",
+    text: "Learn about healthy living and protecting our planet."
+},
+
+geography: {
+    title: "Geography and World Environment",
+    text: "Explore continents, countries, climate, maps, and the Earth's environment."
+}
+
 
     };
 
@@ -541,6 +548,40 @@ Key lesson: Mathematics and engineering support innovation, infrastructure devel
     ]
 },
 
+{
+    title: "Geography and World Environment",
+    category: "Geography",
+    keywords: [
+        "geography",
+        "world",
+        "continents",
+        "countries",
+        "environment",
+        "climate"
+    ],
+    content: `Geography and World Environment
+
+Geography is the study of the Earth, its land, water, people, places, and natural features.
+
+The Earth has seven continents: Africa, Asia, Europe, North America, South America, Australia, and Antarctica.
+
+The world contains many countries with different cultures, languages, landscapes, and climates.
+
+The environment includes air, water, land, plants, animals, and other natural resources.
+
+Climate describes the usual weather conditions of a place over a long period. Climate change is a major global challenge that affects ecosystems, agriculture, water resources, and human communities.
+
+Environmental protection involves reducing pollution, conserving forests, protecting wildlife, recycling materials, and using natural resources responsibly.
+
+Geography helps people understand the world and make better decisions about the environment.`,
+  
+    references: [
+        "https://education.nationalgeographic.org/",
+        "https://www.unep.org/",
+        "https://www.nationalgeographic.com/"
+    ]
+},
+
 
 
 ];
@@ -611,15 +652,27 @@ function readArticle(index) {
         .map(paragraph => `<p>${paragraph}</p>`)
         .join("");
 
-    const references = article.references
-        ? article.references.map(reference => `
+    
+const references = article.references
+    ? article.references.map(reference => {
+        const url = typeof reference === "string"
+            ? reference
+            : reference.url;
+
+        const name = typeof reference === "string"
+            ? reference
+            : reference.name;
+
+        return `
             <li>
-                <a href="${reference.url}" target="_blank" rel="noopener noreferrer">
-                    ${reference.name}
+                <a href="${url}" target="_blank" rel="noopener noreferrer">
+                    ${name || url}
                 </a>
             </li>
-        `).join("")
-        : "<li>No references available yet.</li>";
+        `;
+    }).join("")
+    : "<li>No references available yet.</li>";
+
 
     reader.innerHTML = `
         <div class="article-reader-card">
